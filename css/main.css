@@ -331,7 +331,7 @@ footer .social:nth-child(5) img{
   background-repeat: no-repeat !important;
 } 
 .block1{
-  height: 600px;
+  /* height: 600px; */
   background-color: #d1d3d4; 
   color: #000;
   font-size: 30px;
@@ -403,7 +403,7 @@ footer .social:nth-child(5) img{
 }
 .table-muay tbody td:nth-child(5){ 
   font-size: 36px; 
-  color: #ff0000 !important; 
+  color: #0006ff !important; 
   text-shadow: none;
 }
 .sec1 .bgt1 .tab-pane .block1 h1{
@@ -431,12 +431,290 @@ footer .social:nth-child(5) img{
 }
 
 .sec1 .bgt2 .tab-pane > div{
-  padding: 40px 60px;
+  padding: 30px 60px 40px;
   background: url(../images/bgx2.png) ;
   background-size: 100% auto !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
 } 
+
+
+.table-sian thead th{
+  text-align: center;
+  border: 2px solid #000;
+  background-color: #2a2a2a;
+  padding: 0px;
+}
+.table-sian tbody tr td{ 
+  border: 5px solid #000;  
+  text-align: center;
+  background-color: #fff;
+  padding: 2px;
+  height: 25px; 
+}
+.table-sian thead tr:nth-child(1) th:nth-child(1){
+  vertical-align: top;
+  padding-top: 10px;
+}
+.table-sian thead tr:nth-child(2) th{
+  background-color: #fff;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 18px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.table-sian thead th h5{
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 24px; 
+  color: #e7dba3;
+  text-shadow:
+    4px 4px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.table-sian thead th h5 span{ 
+  color: #c9c9c8;
+  text-shadow:
+    4px 4px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-left: 15px;
+}
+.table-sian tbody tr:nth-child(1) td{
+  background-color: #fff;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 24px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: left;
+  padding-top: 5px; 
+  margin-bottom: 0px;
+  text-align: center;
+}
+.table-sian tbody tr td:nth-child(1){
+  background-color: #fff;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 24px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: left;
+  padding-top: 5px; 
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.table-sian tbody tr:nth-child(1) td:nth-child(n+5){ 
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 28px; 
+  color: #000;
+  text-shadow: none;  
+  padding: 0px !important;
+  text-align: center;
+}
+
+.table-sian tbody tr:nth-child(n+2) td{
+  border-bottom: 2px solid #000 !important;  
+  border-top: 2px solid #000 !important;  
+  font-size: 16px;
+}
+
+ 
+.table-sian {
+  border-bottom: 5px solid #000 !important; 
+}
+
+
+.bgt2 .block1{
+  height: unset !important; 
+}
+
+.sec1 .bg-tball > div{
+  padding: 30px 60px 40px;
+  background: url(../images/t-ball.png) !important; 
+}  
+ 
+.table-tball {
+  border-bottom: 5px solid #000 !important; 
+}
+
+.table-tball thead tr th{ 
+  background-color: #2a2a2a;
+  border: 5px solid #fff7c3;
+  padding: 0px;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 40px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+  text-align: center;
+}
+.table-tball tbody tr td{ 
+  background-color: rgba(42, 42, 42, 0.82);
+  border: 5px solid #fff7c3;
+  padding: 0px;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 24px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+  text-align: center;
+  vertical-align: middle;
+}
+.table-tball tbody tr td:nth-child(1){  
+  font-size: 40px;  
+}
+
+.table-kob thead tr th{ 
+  background-color: rgba(0, 0, 0, 0.81);
+  border: 3px solid #fff7c3;
+  padding: 10px 10px 10px 20px;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 40px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+  vertical-align: middle;
+}
+.table-kob thead tr th:nth-child(2){  
+  border-bottom: 0px solid #fff7c3;   
+}
+.table-kob thead tr th h6{  
+  font-size: 30px;
+}
+.table-kob tbody tr td{ 
+  background-color: rgba(0, 0, 0, 0.81);
+  border: 3px solid #fff7c3;
+  border-top: 0px solid #fff7c3;
+  padding: 10px;
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 40px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+}
+.kob-box .box{
+  display: flex;
+}
+.kob-box img{
+  width: 30%;
+} 
+.kob-box .box > div{
+  width: 70%;
+  padding: 30px;
+}
+.kob-box .box > div p{   
+  font-weight: bold;
+  font-family: supermarket;
+  font-size: 40px; 
+  color: #e7dba3;
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   
+} 
+.table-condensed{ 
+  background-color: #fff;
+  font-size: 22px;
+  padding: 20px;
+  width: 100%;
+}
+.table-condensed tr th:nth-child(2){ 
+  font-family: supermarket; 
+}
+.table-condensed tr:nth-child(3) th{ 
+  font-family: supermarket; 
+}
+.table-condensed tbody{ 
+  font-family: supermarket; 
+}
+.date .old ,.date .new  {
+  opacity: 0;
+}
+.datepicker-inline{
+  width: 100% !important;
+}
+
+ 
+
+
+.sec1 .bgt2 .tab-pane .block1 h1{
+  position: relative;
+  font-family: supermarket;
+  font-size: 48px;
+  color: #e7dba3;
+  text-shadow:
+       4px 4px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+} 
+.table-sian thead tr:nth-child(1) th:nth-child(n+2){
+  background-color: #fff;
+  height: 110px;
+  background-size:  auto 100% !important;
+  background-position: bottom center !important;
+  background-repeat: no-repeat !important;
+} 
+.table-sian thead tr td:nth-child(2){
+  min-width: 100px;
+}
+
 
 
 
