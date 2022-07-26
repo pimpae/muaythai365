@@ -648,13 +648,26 @@ footer .social:nth-child(5) img{
 .kob-box .box{
   display: flex;
 }
+.kob-box2{
+  height: 125px;
+  position: relative;
+}
+.kob-box p{
+  padding-top: 20px;
+} 
 .kob-box img{
   width: 30%;
 } 
 .kob-box .box > div{
   width: 70%;
   padding: 30px;
+} 
+.kob-box .box > div{
+  width: 70%;
+  padding: 30px;
 }
+
+
 .kob-box .box > div p{   
   font-weight: bold;
   font-family: supermarket;
@@ -688,7 +701,20 @@ footer .social:nth-child(5) img{
 .datepicker-inline{
   width: 100% !important;
 }
-
+.img-tb-left{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 220px;
+  margin-bottom: 5px; 
+}
+.img-tb-right{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 220px;
+  margin-bottom: 5px;
+}
  
 
 
@@ -716,7 +742,68 @@ footer .social:nth-child(5) img{
 }
 
 
+.table-rate thead th{
+  text-align: center;
+  border: 5px solid #000;
+  background-color: #2a2a2a;
+  padding: 0px;
+}
+.table-rate tbody td{
+  border: 5px solid #000;
+  text-align: center;
+  background-color: #fff;
+  padding: 2px;
+  font-size: 36px;
+  height: 40px;
+}
+.table-rate thead th{
+  font-family: supermarket;
+  font-size: 30px; 
+  color: #e7dba3;
+  text-shadow:
+       4px 4px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+} 
+.table-rate tbody td{
+  font-family: supermarket;
+  font-size: 30px; 
+  color: #e7dba3;
+  font-weight: bold;
+  text-shadow:
+       1px 1px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+.table-rate tbody td:nth-child(3){   
+  color: #ff0000 !important; 
+  text-shadow: none;
+  font-size: 24px;
+}
+.table-rate tbody td:nth-child(4){  
+  color: #0006ff !important; 
+  text-shadow: none;
+  font-size: 24px;
+}
+.table-rate tbody td.corner1{  
+  color: #ff0000 !important;  
+  text-shadow: none;
+  font-weight: bold;
+}
+.table-rate tbody td.corner2{  
+  color: #0006ff !important;  
+  text-shadow: none;
+  font-weight: bold;
+}
 
+.table-rate tbody td:nth-child(3){   
+  color: #ff0000 !important; 
+  text-shadow: none;
+} 
 
 .tabs2{
   margin-top: 20px;
@@ -1020,6 +1107,44 @@ footer .social:nth-child(5) img{
   font-family: Kanit-Regular;
 }
 
+.table-poll thead th{
+  text-align: center;
+  border: 5px solid #000;
+  background-color: #2a2a2a;
+  padding: 0px;
+}
+.table-poll tbody td{
+  border: 5px solid #000;
+  text-align: center;
+  background-color: #fff;
+  padding: 2px;
+  height: 40px;
+  font-family: supermarket;
+  font-size: 30px; 
+  color: #e7dba3;
+  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+.table-poll thead th{
+  font-family: supermarket;
+  font-size: 30px; 
+  color: #e7dba3;
+  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}  
+.table-poll tbody td:nth-child(3){ 
+  font-size: 36px; 
+  color: #0006ff !important; 
+  text-shadow: none;
+}
 
 
 
@@ -1131,9 +1256,9 @@ footer .social:nth-child(5) img{
     font-size: 14px;
     font-family: Kanit-Regular;
   }
-  .block1 {
+  /* .block1 {
     height: 300px; 
-  }
+  } */
   .tabs2{
     margin-top: 25px;
     padding: 20px 10px; 
@@ -1148,7 +1273,7 @@ footer .social:nth-child(5) img{
     margin-top: 0px;
   }
   .news-typeA .des a {
-    font-size: 25px; 
+    font-size: 20px; 
   }
   .news-typeA .des { 
     height: 145px; 
@@ -1238,8 +1363,150 @@ footer .social:nth-child(5) img{
     color: #6d6e71 !important;
     font-family: Kanit-Regular;
   }
+  .steaming{
+    height: 220px;
+    padding: 8px;
+  }
+  .sec1 .bgt1 .tab-pane > div{
+    padding: 10px 10px;
+  }
+  .sec1 .bgt1 .tab-pane .block1 h1 {
+    font-size: 18px;
+  } 
+  .table-muay thead th{
+    font-size: 18px !important;
+    vertical-align: middle !important;
+  }
+  .table-muay tbody td{
+    font-size: 12px !important;
+    line-height: 14px;
+    height: 30px;
+    vertical-align: middle !important; 
+  }
+  .table-muay thead th { 
+    border: 1px solid #000;
+    line-height: 20px;
+  }
+  .table-muay tbody td { 
+    border: 1px solid #000;
+  }
+  .table-rate thead th{
+    font-size: 18px !important;
+    vertical-align: middle !important;
+  }
+  .table-rate tbody td{
+    font-size: 12px !important;
+    line-height: 14px;
+    height: 30px;
+    vertical-align: middle !important; 
+  }
+  .table-rate thead th { 
+    border: 1px solid #000;
+    line-height: 20px;
+  }
+  .table-rate tbody td { 
+    border: 1px solid #000;
+  }
 
+  .table-poll thead th{
+    font-size: 18px !important;
+    vertical-align: middle !important;
+  }
+  .table-poll tbody td{
+    font-size: 12px !important;
+    line-height: 14px;
+    height: 30px;
+    vertical-align: middle !important; 
+  }
+  .table-poll thead th { 
+    border: 1px solid #000;
+    line-height: 20px;
+  }
+  .table-poll tbody td { 
+    border: 1px solid #000;
+  }
 
+  .sec1 .bgt1 .tab-pane > div { 
+    background-size: auto 100% !important;    
+  }
+  .sec1 .bgt2 .tab-pane > div{
+    background-size: auto 100% !important;     
+  }
+  .sec1 .bgt2 .tab-pane > div{
+    padding: 10px;
+  }
+  .sec1 .bgt2 .tab-pane .block1 h1{
+    font-size: 32px;
+  }
+  .table-sian thead th h5 {
+    font-size: 13px; 
+  }
+  .table-sian thead th h5 span{
+    padding-left: 5px;
+  }
+  .table-sian tbody tr td {
+    font-size: 16px !important;
+  }
+  .table-sian thead tr th {
+    line-height: 14px !important;
+    font-size: 16px !important;
+    vertical-align: middle;
+  }
+  .table-sian thead tr:nth-child(1) th:nth-child(n+2){
+    height: 60px ;
+  }  
+  .table-kob thead tr th {
+    font-size: 18px;
+  }
+  .table-kob thead tr th h3{
+    font-size: 16px;
+  }
+  .kob-box p{
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  .img-tb-left {
+    height: 188px;
+  }
+  .img-tb-right {
+    height: 188px;
+  }
+  .kob-box .box {
+    display: block;
+    position: relative;
+  }
+  .kob-box img{
+    position: absolute;
+    width: unset;
+    left: 0;
+    height: 100px; 
+  }
+  .kob-box .box > div { 
+    padding: 10px;
+    padding-left: 100px;
+    width: 100%;
+  }
+  .kob-box .box > div p{
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .table-kob thead tr th:nth-child(1){
+    width: 60%;
+  }
+  .table-kob thead tr th h6{
+    font-size: 16px;
+  }
+  .table-tball thead tr th{
+    font-size: 18px;
+    border: 1px solid #dfc56e;
+  }
+  .table-tball tbody tr td{
+    border: 1px solid #dfc56e;
+    font-size: 16px !important;
+  }
+  .table-sian tbody tr td {
+    border: 1px solid #000;
+  }
 } 
 @media only screen and (min-width: 768px) { /* PC */
   .pc-xx{
