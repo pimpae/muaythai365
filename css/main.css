@@ -1553,8 +1553,17 @@ footer .social:nth-child(5) img{
     color: #6d6e71 !important;
     font-family: Kanit-Regular;
   }
+  .steaming{
+    height: 320px;
+    padding: 8px;
+  }
 }
 @media only screen and (width: 768px) { /* MINI */ 
+  
+  .steaming{
+    height: 420px;
+    padding: 8px;
+  }
   .carousel .carousel-item{
     height: 650px; 
     background-size:  auto 100% !important;
