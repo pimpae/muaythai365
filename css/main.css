@@ -1230,6 +1230,10 @@ footer .social:nth-child(5) img{
     margin: 10px;
     float: left; 
     font-size: 20px;
+
+    
+    height: 150px;
+    background-size:  auto 100%   !important; 
   }
   .api-fun{
     height: 400px;
@@ -1506,6 +1510,14 @@ footer .social:nth-child(5) img{
   }
   .table-sian tbody tr td {
     border: 1px solid #000;
+  } 
+  .box-social1 { 
+    height: 150px;
+    background-size: 100% auto  !important; 
+  }
+  .box-social2 { 
+    height: 150px;
+    background-size: auto 100% !important; 
   }
 } 
 @media only screen and (min-width: 768px) { /* PC */

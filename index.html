@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="images/logo.png"> 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"   /> 
+	<link href="https://vjs.zencdn.net/7.20.1/video-js.css" rel="stylesheet" />
     <title> MUAYTHAI365 </title> 
 </head>
 <body>
@@ -66,7 +67,7 @@
 			</div>
 		</div>
 	</header>
-	<main>
+	<main> 
 		<section class="sec1"> 
 			<div class="container-fluid">
 				<div class="row justify-content-center">
@@ -107,15 +108,34 @@
 								<div class="col-xl-9">
 									<div class="steaming">
 										<div class="box-steaming">
-
+											<video
+												id="my-video"
+												class="video-js"
+												controls
+												preload="auto"
+												width="640"
+												height="264"
+												poster="MY_VIDEO_POSTER.jpg"
+												data-setup="{}"
+											>
+												<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+												<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/webm" />
+												<p class="vjs-no-js">
+												To view this video please enable JavaScript, and consider upgrading to a
+												web browser that
+												<a href="https://videojs.com/html5-video-support/" target="_blank"
+													>supports HTML5 video</a
+												>
+												</p>
+											</video>
 										</div>
 									</div>
 									<div class="steaming-account">
 										<a href="#" class="account" style="background: url(images/line.png);"> 
 										</a>
-										<a href="#" class="account" style="background: url(images/20220220_62125a65433ff.webp);"> 
+										<a href="#" class="account" style="background: url(images/add-a-video-to-facebook-profile.jpg);"> 
 										</a>
-										<a href="#" class="account" style="background: url(images/yt.jpg);"> 
+										<a href="#" class="account" style="background: url(images/YouTube-logo.jpg);"> 
 										</a>
 										<a href="#" class="account" style="background: url(images/tiktok.webp);"> 
 										</a>
@@ -1624,13 +1644,13 @@
 									<div class="row">
 										<div class="col-xl-12 col-md-6">
 											<a href="#">
-												<div class="box-social2" style="background: url(images/line.png);"> 
+												<div class="box-social2" style="background: url(images/line-app-icon-4.png);"> 
 												</div>
 											</a>
 										</div>
 										<div class="col-xl-12 col-md-6">
 											<a href="#">
-												<div class="box-social2" style="background: url(images/tiktok.webp);"> 
+												<div class="box-social2" style="background: url(images/tiktok2.png);"> 
 												</div>
 											</a>
 										</div>
@@ -1718,6 +1738,8 @@
     
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.th.min.js"></script>
+
+	<script src="https://vjs.zencdn.net/7.20.1/video.min.js"></script>
   
 	<script>
 		$('.date').datepicker({
